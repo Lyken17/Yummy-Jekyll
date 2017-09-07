@@ -7,7 +7,7 @@ tags: [css]
 
 Quick note about CSS animation.
 
-![](unamed.png)
+![](images/unamed.png)
 
 ## CSS Animation
 
