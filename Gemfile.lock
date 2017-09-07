@@ -87,6 +87,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+    maruku (0.7.3)
     mercenary (0.3.5)
     middleware (0.1.0)
     mime-types (3.0)
@@ -168,6 +169,7 @@ DEPENDENCIES
   jekyll-paginate
   json!
   kramdown
+  maruku
   rough
 
 BUNDLED WITH

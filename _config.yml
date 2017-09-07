@@ -6,15 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Welcome to Lunarium  # ex. I m Chuan
+title: Lunarium  # ex. I m Chuan
 name: Ligeng Zhu # ex. DONGChuan
-email: lykensyu@gmail.com
+email: Click here :) 
+emailTo: lykensyu+github@gmail.com
 location: Vancouver # ex. Nice, France
 company: Computational Vision Lab, Simon Fraser University
 company_url: http://www.cs.sfu.ca/~colour/
 github_url: https://lyken17.github.io # ex. https://github.com/DONGChuan
 github_username: # ex. DONGChuan
-description: description_of_your_web_site
+description: Welcome to Lunarium
 favicon: favicon.png # Image must be in assets/images
 repository: Lyken17/lyken17.github.io # ex. DONGChuan/DONGChuan.github.io
 
@@ -59,14 +60,13 @@ navs:
   -
     href: /
     label: Home
+  -
+    href: /blog
+    label: Blog
 
   -
     href: /open-source
     label: Open-Source
-
-  -
-    href: /blog
-    label: Blog
 
   -
     href: /bookmark
@@ -87,7 +87,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_software_keywords: [C, C++, Python, Lua, Scala]
+skill_j2ee_keywords: [Machine Learning, Deep Learning, Computer Vision]
+skill_web_keywords: [HTML, CSS, JS, JQuery,Boostrap, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis]
+# skill_mobile_app_keywords: [Android, Sketch UI Desgin]

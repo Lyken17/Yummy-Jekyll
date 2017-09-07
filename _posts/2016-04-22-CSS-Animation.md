@@ -5,7 +5,9 @@ category: CSS
 tags: [css]
 ---
 
-Quick note about CSS animation. 
+Quick note about CSS animation.
+
+![](unamed.png)
 
 ## CSS Animation
 
@@ -54,7 +56,7 @@ div:hover{
 
 ## Animation Properties
 
-It has following properties: 
+It has following properties:
 
 1. animation-name
 2. animation-duration
@@ -89,7 +91,7 @@ The speed curve or pace of the animation:
 
 > Check [The basics of easing](https://developers.google.com/web/fundamentals/design-and-ui/animations/the-basics-of-easing?hl=en) for details.
 
-### animation-delay 
+### animation-delay
 
 It specifies when the animation will start. The value is defined in seconds (s) or milliseconds (mil).
 
@@ -116,7 +118,7 @@ It specifies whether the animation should play forward, reverse, or in alternate
 
 ### animation-fill-mode
 
-It specifies if the animation styles are visible before or after the animation plays. 
+It specifies if the animation styles are visible before or after the animation plays.
 
 * `normal` - Default. The animation does not apply any styles to the element, before or after the animation.
 
