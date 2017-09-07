@@ -77,13 +77,13 @@ navs:
     label: About
 
 # Sidebar to show popular repo
-side_bar_repo_limit: 5 # Number of repos to show
+side_bar_repo_limit: 3 # Number of repos to show
 
 # Google Analytics
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : 'UA-106086352-1'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
