@@ -13,7 +13,7 @@ Notes for Gumbel-Max trick.
 Nowadays people prefer end-to-end fashion in various learning tasks. However, as one of the most common goal, sampling from a discrete distribution does not have a stable gradient. Gumbel-Max trick provides a way to convert sampling into a optimization problem to alleviate unstable gradient.
 
 ## The usual way
-To sample from discrete distrbution, the common way is to first exponentiate and then normalize.
+To sampling from discrete distribution, the common way is to first exponentiate and then normalize.
 
 $$ z = \sum_{i=1}^{n}exp(x_i) $$
 
@@ -25,7 +25,7 @@ $$ \theta = uniform(0,1) $$
 
 Find a $k$ that
 
-$$ \sum_{i=1}^{k-1} \pi_k \le (\theta * z) < \sum_{i=1}^{k} \pi_k $$.
+$$ \sum_{i=1}^{k-1} \pi_k \le (\theta * z) < \sum_{i=1}^{k} \pi_k $$
 
 Then $k$ is the sampling choice we want.
 
@@ -44,4 +44,4 @@ $$ z_i = x_i + g_i$$
 
 $$ y_{onehot} = \frac{exp(z_i / \tau) }{\sum_{i=1}^{n}exp(z_i / \tau)}$$
 
-When the temperature $\tau$ is close the zero, the equation above gives us a close result of onehot. In this approach, all steps are continuos with stable gradient. Thus the original goal is achieved.
+When the temperature $\tau$ is close the zero, the equation above gives us a close result of onehot. In this approach, all steps are continuous with stable gradient. Thus the original goal is achieved.
