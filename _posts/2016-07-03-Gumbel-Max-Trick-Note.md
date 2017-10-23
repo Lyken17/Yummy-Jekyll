@@ -24,6 +24,7 @@ After getting $n$ bins of probabilities, we then can use an algorithm to samplin
 $$ \theta = uniform(0,1) $$
 
 Find a $k$ that
+
 $$ \sum_{i=1}^{k-1} \pi_k \le (\theta * z) < \sum_{i=1}^{k} \pi_k $$.
 
 Then $k$ is the sampling choice we want.
