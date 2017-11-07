@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Compute Fibonacci Sequence Quickly
+title: Compute Fibonacci Sequence in A Second
 categories: Algorithm ACM-ICPC
 description: Notes for Fibonacci Sequence
 keywords: Fibonacci, Algorithm, Note
